@@ -3,7 +3,7 @@
 
 ## Team CSJ
 
-### **Senior Design Capstone Team CSJ Capstone Website**
+### **Senior Design Capstone Team CSJ Website**
 
 ## What we're building
 
