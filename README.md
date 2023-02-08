@@ -64,5 +64,3 @@ Dr. Yasemin Acar - acar@gwu.edu
 
 Dr. Lucy Simko - lucy.simko@gwu.edu
 
-[Writing 2 - Technical Summary (1).pdf](https://github.com/corasula/corasula.github.io/files/10681069/Writing.2.-.Technical.Summary.1.pdf)
-
