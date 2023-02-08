@@ -1,7 +1,7 @@
-# corasula.github.io
-Team CSJ
 
 # BookCycle
+
+## Team CSJ
 
 ### **Senior Design Capstone Team CSJ Capstone Website**
 
