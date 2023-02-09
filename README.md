@@ -35,7 +35,7 @@ Web application that allows GW students to donate and exchange textbooks within 
 
 [Writing #1 - Elevator Pitch.pdf](https://github.com/corasula/corasula.github.io/files/10681042/Elevator.Pitch.Team.CSJ.pdf)
 
-[Writing 2 - Technical Summary.pdf](https://github.com/corasula/corasula.github.io/files/10681043/Writing.2.-.Technical.Summary.1.pdf)
+[Writing #2 - Technical Summary.pdf](https://github.com/corasula/corasula.github.io/files/10681043/Writing.2.-.Technical.Summary.1.pdf)
 
 [Writing #3 - Project Description.pdf](https://github.com/corasula/corasula.github.io/files/10681046/Team.CSJ.Writing.3.1.pdf)
 
