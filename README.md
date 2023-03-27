@@ -52,7 +52,9 @@ We are 3 Undergraduate Computer Science students at the George Washington Univer
 
 ## Contact Us:
 
-Who We Are: Subin Heo - subinheo33@gwu.edu
+Who We Are: 
+
+Subin Heo - subinheo33@gwu.edu
 
 Jamie Scott - jscott38@gwu.edu
 
