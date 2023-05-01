@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<!--
+	Alpha by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		
+		<title>Architecture</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" type="image/x-icon" href="bookicon.png"
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1><a href="index.html">BookCycle</a> by Team CSJ</h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li>
+								<a href="#" class="icon solid fa-angle-down">More Information</a>
+								<ul>
+									<li><a href="generic.html">Writings</a></li>
+									<li><a href="presentations.html">Presentations</a></li>
+									<li><a href="BookCycle Poster - Team CSJ SD 2023.pdf">Poster</a></li>
+									<li><a href="video.html">Videos</a></li>
+									<li><a href="architecture.html">Architecture</a></li>
+									<li><a href="https://github.com/JamieScottC/BookCycle">GitHub</a></li>
+									<li><a href="aboutus.html">About Us</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Main -->
+				<section id="main" class="container">
+					<header>
+					</li>
+					
+						<h2>Architecture</h2>
+						<p>Our design.</p>
+						<h1></h1>
+						<span class="icon solid fa-sitemap accent1"></span>
+					</header>
+					<div class="box">
+						<!-- <span class="image featured"><img src="images/pic01.jpg" alt="" /></span> -->
+						<h3>Flow Diagram</h3>
+                        <div alignItems="center"></div>
+                        <center><img src="Flowchart.png" alt="Flow Chart" width="70%" height="80%"></center>
+                        
+						<!-- <a href="/Elevator.Pitch.Team.CSJ (2).pdf">Elevator Pitch</a> -->
+						<p> </p>
+						<!-- <p>Cep risus aliquam gravida cep ut lacus amet. Adipiscing faucibus nunc placerat. Tempus adipiscing turpis non blandit accumsan eget lacinia nunc integer interdum amet aliquam ut orci non col ut ut praesent. Semper amet interdum mi. Phasellus enim laoreet ac ac commodo faucibus faucibus. Curae ante vestibulum ante. Blandit. Ante accumsan nisi eu placerat gravida placerat adipiscing in risus fusce vitae ac mi accumsan nunc in accumsan tempor blandit aliquet aliquet lobortis. Ultricies blandit lobortis praesent turpis. Adipiscing accumsan adipiscing adipiscing ac lacinia cep. Orci blandit a iaculis adipiscing ac. Vivamus ornare laoreet odio vis praesent nunc lorem mi. Erat. Tempus sem faucibus ac id. Vis in blandit. Nascetur ultricies blandit ac. Arcu aliquam. Accumsan mi eget adipiscing nulla. Non vestibulum ac interdum condimentum semper commodo massa arcu.</p> -->
+						<div class="row">
+							<div class="row-6 row-12-mobilep">
+								<h3>System Diagram</h3>
+                                <center><img src="systemdiagram.png" alt="System Diagram" width="95%" height="90%"></center>
+								<!-- <a href="/Writing.2.-.Technical.Summary.1 (4).pdf">Technical Summary</a> -->
+								<p> </p>
+									<!-- <h3>And now a subheading</h3> -->
+								<!-- <p>Adipiscing faucibus nunc placerat. Tempus adipiscing turpis non blandit accumsan eget lacinia nunc integer interdum amet aliquam ut orci non col ut ut praesent. Semper amet interdum mi. Phasellus enim laoreet ac ac commodo faucibus faucibus. Curae lorem ipsum adipiscing ac. Vivamus ornare laoreet odio vis praesent.</p> -->
+							</div>
+							
+							</div>
+							<div class="row-6 row-12-mobilep">
+								<h3>User Stories</h3>
+                                <h4>As a student, I would like to sign up using my verified GW email to use this platform, so that I can have access to BookCycle.</h4>
+								<h4>As a student, I would like to donate my old textbooks on this platform, so that I can help another student in need.</h4>
+                                <h4>As a student, I would like to enter my courses, so that I can be matched with textbooks based on the courses I am taking.</h4>
+                                <h4>As a student, I would like to report my financial aid status, so that I can be matched with textbooks based on my need.</h4>
+                                <h4>As a student, I would like to request a book after being matched, so that I am able to exchange them. </h4>
+                                <h4>As a student, I would like to set the dates, times, and places I am available to receive the textbook I am requesting from another student.</h4>
+                                <h4>As a student, I would like to agree on what dates, times, and locations I can exchange the textbooks with the student I am giving the book to.</h4>
+                                <h4>As a student, I would like to meet with another student after agreeing on a time, location, and date, so that I can use my textbook.</h4>
+                                <h4>As a student, I would like to view more information on the courses and textbooks I need, so that I can see if there is a book available to exchange, buy cheaper, or find out more information on.</h4>
+                               
+								<p> </p>
+								
+							</div>
+							<div class="row-6 row-12-mobilep">
+								<h3>Matching Algorithm</h3>
+								
+								<center><img src="matchingalg.png" alt="Matching Alg" width="70%" height="90%"></center>
+								<h4>Our matching algorithm is developed based on the Weighted Bipartite algorithm with the following steps: </h4>
+								<ol style="padding-left:20px" class="matching_steps">
+									<li>Create a bipartite graph with two sets: Student set and Textbook set.</li>
+									<li>Construct edges between students and books they need</li>
+									<li>Incorporate constraints to calculate the cost matrix values/edge weights considering the amount textbooks a person has already received and 
+										the financial need of each person:</li>
+                                    <h1>•&nbsp;&nbsp;Assigns a higher cost to people who have received more textbooks, making it less likely they will be assigned additional textbooks.</h1>
+                                    <h1>•&nbsp;&nbsp;Assign lower costs to those with higher needs, increasing the likelihood that they will be assigned textbooks.</h1>
+                                    <li>Each column (Textbook) is assigned to the row (Student) with the lowest cost</li>
+									<li>Edge weights are altered after a student is assigned a book </li>
+									
+								</ol>
+							</div>
+						</div>
+					</div>
+				</section>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+
+						<li><a href="https://github.com/JamieScottC/BookCycle" class="icon brands fa-github"><span class="label">Github</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
